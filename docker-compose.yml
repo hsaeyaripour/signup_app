@@ -14,7 +14,7 @@ services:
       - backend
 
   web:
-    build: .
+    image: havix/signup_app:latest
     ports:
       - "5000:5000"
     depends_on:
